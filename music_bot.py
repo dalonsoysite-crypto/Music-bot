@@ -87,7 +87,7 @@ async def handle(update, context):
             await update.message.reply_audio(
                 audio=f,
                 title=title,
-                caption=f"🎵 {title}"
+                caption=f"🎵 {title}\n\n📸 Instagram: @toshbekov_f"
             )
         await msg.delete()
     except Exception as e:
