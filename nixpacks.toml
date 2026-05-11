@@ -1,8 +1,5 @@
 [phases.setup]
-nixPkgs = ["python311Full", "ffmpeg"]
-
-[phases.install]
-cmds = ["pip3 install -r requirements.txt"]
+nixPkgs = ["python311", "ffmpeg"]
 
 [start]
 cmd = "python3 music_bot.py"
